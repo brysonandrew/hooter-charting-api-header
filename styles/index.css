@@ -1,0 +1,34 @@
+
+body {
+  font-family: "Dubai";
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+
+strong {
+  font-family: "Dubai Bold";
+}
+
+.background {
+  background-color: #123033;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  transform: scale(0.4);
+}
+
+img.background {
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}

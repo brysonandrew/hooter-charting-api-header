@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header div.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header div div.prefix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  color: #1bfeb2;
+}
+
+header div div.prefix div.background {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+}
+
+header div.right p.logo {
+  font-size: 80px;
+  background-color: red;
+}

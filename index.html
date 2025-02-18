@@ -8,101 +8,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="https://github.com/brysonandrew" />
   <style>
-    @font-face {
-      font-family: "Dubai";
-      src: url("./assets/fonts/Dubai-Regular.ttf") format("truetype");
-    }
-
-    body {
-      font-family: "Dubai";
-      color: #fff;
-      padding: 0;
-      margin: 0;
-    }
-
-    main {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      padding: 1rem;
-      gap: 1rem;
-    }
-
-    .container {
-      position: relative;
-      transform: scale(0.4);
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-    }
-
-    .logo {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      font-size: 100px;
-    }
-
-    img {
-      object-fit: contain;
-      width: 100%;
-      height: 100%;
-    }
+    @import url("./styles/fonts.css");
+    @import url("./styles/index.css");
+    @import url("./styles/content.css");
+    @import url("./styles/header.css");
+    @import url("./styles/main.css");
+    @import url("./styles/footer.css");
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <img src="assets/green.jpg" />
-    <header>
-      <div>
-        <div>
-          circle
-        </div>
-        <div>truncated hash</div>
-        left header
+  <div class="center">
+
+    <div class="container">
+      <img class="background" src="assets/green.jpg" />
+      <div class="content">
+        <header>
+          <div class="left">
+            <div class="prefix">
+              <div class="background" />
+              0x
+            </div>
+            <div>0x2E2e...494E</div>
+          </div>
+          <div class="right">
+            <p class="logo">HawkMoney</p>
+          </div>
+        </header>
+        <main>
+          <div class="top">
+            <div>
+              <img class="currency-logo" src="./assets/eth.png" />
+              <div>ETH</div>
+            </div>
+            <div class="badge">
+              <div class="background" />
+              long x2
+            </div>
+          </div>
+          <strong class="bottom">
+            +$23,188.57
+          </strong>
+        </main>
+        <footer>
+          <ul>
+            <li>
+              <h4>Entry Price</h4>
+              <p>3327.38</p>
+            </li>
+            <li>
+              <h4>Exit Price</h4>
+              <p>3392.37</p>
+            </li>
+            <li>
+              <h4>Size</h4>
+              <p>7.34
+                <img class="currency-logo" src="./assets/eth.png" />
+              </p>
+            </li>
+          </ul>
+        </footer>
       </div>
-      <div class="logo">HawkMoney</div>
-    </header>
-    <main>
-      <div>
-        <img src="eth logo" />
-        <div>eth</div>
-      </div>
-      <div>
-        20,0000
-      </div>
-    </main>
-    <footer>
-      <ul>
-        <li>
-          <h4>title</h4>
-          <p>value</p>
-        </li>
-        <li>
-          <h4>title</h4>
-          <p>value</p>
-
-        </li>
-        <li>
-          <h4>title</h4>
-          <p>value
-
-            <img src="eth logo" />
-          </p>
-
-
-        </li>
-      </ul>
-    </footer>
-
-
+    </div>
   </div>
-  <!-- <div class="container">
-      <img src="assets/red.jpg" />
-    </div> -->
 </body>
 
 </html>

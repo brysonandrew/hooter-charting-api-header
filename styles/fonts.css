@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Dubai";
+  src: url("../assets/fonts/Dubai-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Dubai Bold";
+  src: url("../assets/fonts/Dubai-Bold.ttf") format("truetype");
+}

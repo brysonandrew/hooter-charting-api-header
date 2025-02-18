@@ -1,0 +1,29 @@
+footer {
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+footer ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer ul li h4 {
+  color: #828282;
+}
+
+footer ul li p {
+  display: flex;
+  gap: 12px;
+  color: white;
+}
+
+footer ul li p img.currency-logo {
+  width: 60px;
+  height: 60px;
+}
+
