@@ -3,23 +3,106 @@
 
 <head>
   <meta name="description" content="Webpage description goes here" />
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title>Hooter API</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="https://github.com/brysonandrew" />
+  <style>
+    @font-face {
+      font-family: "Dubai";
+      src: url("./assets/fonts/Dubai-Regular.ttf") format("truetype");
+    }
+
+    body {
+      font-family: "Dubai";
+      color: #fff;
+      padding: 0;
+      margin: 0;
+    }
+
+    main {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 1rem;
+      gap: 1rem;
+    }
+
+    .container {
+      position: relative;
+      transform: scale(0.4);
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 100px;
+    }
+
+    img {
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
 </head>
 
 <body>
-
   <div class="container">
-hello world
+    <img src="assets/green.jpg" />
+    <header>
+      <div>
+        <div>
+          circle
+        </div>
+        <div>truncated hash</div>
+        left header
+      </div>
+      <div class="logo">HawkMoney</div>
+    </header>
+    <main>
+      <div>
+        <img src="eth logo" />
+        <div>eth</div>
+      </div>
+      <div>
+        20,0000
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <h4>title</h4>
+          <p>value</p>
+        </li>
+        <li>
+          <h4>title</h4>
+          <p>value</p>
+
+        </li>
+        <li>
+          <h4>title</h4>
+          <p>value
+
+            <img src="eth logo" />
+          </p>
+
+
+        </li>
+      </ul>
+    </footer>
+
+
   </div>
-
-  <script>
-  </script>
-
+  <!-- <div class="container">
+      <img src="assets/red.jpg" />
+    </div> -->
 </body>
 
 </html>
