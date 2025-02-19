@@ -1,15 +1,17 @@
 footer {
+  position: relative;
 }
 
 footer ul {
   display: flex;
   flex-direction: row;
+  gap: 80px;
 }
 
 footer ul li {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 footer ul li h4 {
@@ -18,12 +20,13 @@ footer ul li h4 {
 
 footer ul li p {
   display: flex;
+  align-items: start;
   gap: 12px;
   color: white;
 }
 
 footer ul li p img.currency-logo {
-  width: 60px;
-  height: 60px;
+  width: 46px;
+  height: 46px;
 }
 

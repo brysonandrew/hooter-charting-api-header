@@ -10,10 +10,10 @@
   <style>
     @import url("./styles/fonts.css");
     @import url("./styles/index.css");
-    @import url("./styles/content.css");
-    @import url("./styles/header.css");
-    @import url("./styles/main.css");
-    @import url("./styles/footer.css");
+    @import url("./styles/content/index.css");
+    @import url("./styles/content/header.css");
+    @import url("./styles/content/main.css");
+    @import url("./styles/content/footer.css");
   </style>
 </head>
 
@@ -21,36 +21,61 @@
   <div class="center">
 
     <div class="container">
+
+      <!-- background -->
+
       <img class="background" src="assets/green.jpg" />
+
+      <!-- content -->
+
       <div class="content">
+
+        <!-- header -->
+
         <header>
+
           <div class="left">
             <div class="prefix">
-              <div class="background" />
-              0x
+              <div class="background">0x</div>
+              <!-- <img class="background" src="./assets/avatar.png" alt="avatar" /> -->
             </div>
-            <div>0x2E2e...494E</div>
+            <div class="name">
+              0x2E2e...494E
+               <!-- Andrew B. -->
+            </div>
           </div>
-          <div class="right">
-            <p class="logo">HawkMoney</p>
-          </div>
+
+          <p class="logo">Hawk<span>Money</span></p>
+
         </header>
+
+        <!-- main -->
+
         <main>
+
           <div class="top">
-            <div>
+
+            <div class="currency">
               <img class="currency-logo" src="./assets/eth.png" />
               <div>ETH</div>
             </div>
+
             <div class="badge">
-              <div class="background" />
-              long x2
+              <div class="background">LONG 20x</div>
             </div>
+
           </div>
-          <strong class="bottom">
+
+          <p class="bottom">
             +$23,188.57
-          </strong>
+          </p>
+
         </main>
+
+        <!-- footer -->
+
         <footer>
+
           <ul>
             <li>
               <h4>Entry Price</h4>
@@ -67,7 +92,9 @@
               </p>
             </li>
           </ul>
+
         </footer>
+
       </div>
     </div>
   </div>
