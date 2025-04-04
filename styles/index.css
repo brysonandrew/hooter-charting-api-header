@@ -1,9 +1,10 @@
 
 body {
-  font-family: "Dubai";
+  font-family: "Share Tech", sans-serif;
   color: #fff;
-  font-size: 56px;
+  font-size: 28px;
   line-height: 1;
+  font-weight: 600;
 }
 
 body, p, ul, h4 {
@@ -11,14 +12,13 @@ body, p, ul, h4 {
   margin: 0;
 }
 
+.content {
+  background-color: black;
+  position: relative;
+  width: 1600px;
+  height: 1030px;
+}
+
 strong {
   font-family: "Dubai Bold";
-}
-
-img.currency-logo {
-  border-radius: 50%;
-}
-
-div.background {
-  background-color: #123033;
 }
