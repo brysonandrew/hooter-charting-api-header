@@ -4,100 +4,59 @@
 <head>
   <meta name="description" content="Webpage description goes here" />
   <meta charset="utf-8" />
-  <title>Hooter API</title>
+  <title>Hooter API header</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="https://github.com/brysonandrew" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
   <style>
     @import url("./styles/fonts.css");
     @import url("./styles/index.css");
-    @import url("./styles/content/index.css");
-    @import url("./styles/content/header.css");
-    @import url("./styles/content/main.css");
-    @import url("./styles/content/footer.css");
+    @import url("./styles/header.css");
   </style>
 </head>
 
 <body>
-  <div class="center">
 
-    <div class="container">
+  <div class="content">
 
-      <!-- background -->
+    <!-- background -->
 
-      <img class="background" src="assets/green.jpg" />
+    <img style="opacity: 1;" class="background" src="assets/mock.jpeg" />
 
-      <!-- content -->
+    <!-- header -->
 
-      <div class="content">
+    <header>
 
-        <!-- header -->
-
-        <header>
-
-          <div class="left">
-            <div class="prefix">
-              <div class="background">0x</div>
-              <!-- <img class="background" src="./assets/avatar.png" alt="avatar" /> -->
-            </div>
-            <div class="name">
-              0x2E2e...494E
-               <!-- Andrew B. -->
-            </div>
-          </div>
-
-          <p class="logo">Hawk<span>Money</span></p>
-
-        </header>
-
-        <!-- main -->
-
-        <main>
-
-          <div class="top">
-
-            <div class="currency">
-              <img class="currency-logo" src="./assets/eth.png" />
-              <div>ETH</div>
-            </div>
-
-            <div class="badge">
-              <div class="background">LONG 20x</div>
-            </div>
-
-          </div>
-
-          <p class="bottom">
-            +$23,188.57
-          </p>
-
-        </main>
-
-        <!-- footer -->
-
-        <footer>
-
-          <ul>
-            <li>
-              <h4>Entry Price</h4>
-              <p>3327.38</p>
-            </li>
-            <li>
-              <h4>Exit Price</h4>
-              <p>3392.37</p>
-            </li>
-            <li>
-              <h4>Size</h4>
-              <p>7.34
-                <img class="currency-logo" src="./assets/eth.png" />
-              </p>
-            </li>
-          </ul>
-
-        </footer>
-
+      <div class="left">
+        <img class="logo" src="assets/btc.png" />
+        <div class="text">
+          <div class="title">BTC/USD</div>
+          <div class="subtitle">1 DAY</div>
+        </div>
       </div>
-    </div>
+
+      <div class="center">
+        <div class="average">
+          $83,718
+        </div>
+        <div class="change">
+          -2.25%
+        </div>
+      </div>
+
+      <div class="right">
+        <img class="avatar" src="assets/avatar.png" />
+        <div class="title">
+          pvp.trade
+        </div>
+      </div>
+
+    </header>
+
   </div>
+
 </body>
 
 </html>
